@@ -45,3 +45,18 @@ local.properties
 /DataBindingDemo- Imports/.externalNativeBuild
 /DataBindingDemo- Imports/.cxx
 /DataBindingDemo- Imports/local.properties
+
+/DataBindingDemo-Variables/.gradle
+/DataBindingDemo-Variables/local.properties
+/DataBindingDemo-Variables/.idea/caches
+/DataBindingDemo-Variables/.idea/libraries
+/DataBindingDemo-Variables/.idea/modules.xml
+/DataBindingDemo-Variables/.idea/workspace.xml
+/DataBindingDemo-Variables/.idea/navEditor.xml
+/DataBindingDemo-Variables/.idea/assetWizardSettings.xml
+/DataBindingDemo-Variables/.DS_Store
+/DataBindingDemo-Variables/build
+/DataBindingDemo-Variables/captures
+/DataBindingDemo-Variables/.externalNativeBuild
+/DataBindingDemo-Variables/.cxx
+/DataBindingDemo-Variables/local.properties
