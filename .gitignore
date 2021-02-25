@@ -13,3 +13,35 @@
 .externalNativeBuild
 .cxx
 local.properties
+
+
+/DataBindingDemo/.gradle
+/DataBindingDemo/local.properties
+/DataBindingDemo/.idea/caches
+/DataBindingDemo/.idea/libraries
+/DataBindingDemo/.idea/modules.xml
+/DataBindingDemo/.idea/workspace.xml
+/DataBindingDemo/.idea/navEditor.xml
+/DataBindingDemo/.idea/assetWizardSettings.xml
+/DataBindingDemo/.DS_Store
+/DataBindingDemo/build
+/DataBindingDemo/captures
+/DataBindingDemo/.externalNativeBuild
+/DataBindingDemo/.cxx
+/DataBindingDemo/local.properties
+
+
+/DataBindingDemo-Imports/.gradle
+/DataBindingDemo-Imports/local.properties
+/DataBindingDemo- Imports/.idea/caches
+/DataBindingDemo- Imports/.idea/libraries
+/DataBindingDemo- Imports/.idea/modules.xml
+/DataBindingDemo- Imports/.idea/workspace.xml
+/DataBindingDemo- Imports/.idea/navEditor.xml
+/DataBindingDemo- Imports/.idea/assetWizardSettings.xml
+/DataBindingDemo- Imports/.DS_Store
+/DataBindingDemo- Imports/build
+/DataBindingDemo- Imports/captures
+/DataBindingDemo- Imports/.externalNativeBuild
+/DataBindingDemo- Imports/.cxx
+/DataBindingDemo- Imports/local.properties
