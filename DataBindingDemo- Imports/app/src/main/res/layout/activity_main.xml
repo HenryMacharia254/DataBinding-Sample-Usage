@@ -5,6 +5,22 @@
 
     <data>
 
+        <import type="android.view.View" />
+        <import type="com.timac.databindingdemo.View"
+            alias="myView"/>
+        <import type="com.timac.databindingdemo.User"/>
+        <import type="java.util.List"/>
+        <import type="com.timac.databindingdemo.MyUtilClass"/>
+
+        <variable
+            name="user"
+            type="com.timac.databindingdemo.User" />
+        <variable
+            name="user"
+            type="User" />
+        <variable
+            name="userList"
+            type="List&lt;User" />
 
     </data>
 
@@ -17,8 +33,9 @@
             android:id="@+id/textView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Hello World"
+            android:text="@{MyUtilClass.changeText(user.firstName)}"
             android:textSize="24sp"
+            android:visibility="@{user.loggedIn ? View.VISIBLE : View.GONE}"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
@@ -30,8 +47,8 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
             android:ems="10"
-            android:inputType="textPersonName"
             android:hint="@string/enter_text"
+            android:inputType="textPersonName"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView" />

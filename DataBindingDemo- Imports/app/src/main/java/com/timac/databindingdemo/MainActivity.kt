@@ -10,5 +10,13 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         val binding :ActivityMainBinding = DataBindingUtil.setContentView(this,R.layout.activity_main)
 
+        /*
+        We can access variables that are created in the linked layout such as:
+            binding.user        -> For variable named user
+        * */
+
+        val myUser = User("John", "Doe", 25, true)
+        binding.user = myUser
+
     }
 }
